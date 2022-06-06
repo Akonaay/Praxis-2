@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Praxis | Home</title>
-    <link rel="shortcut icon" href="/img/logo4.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="./css/app.css" />
+    <link rel="shortcut icon" href="/assets/img/logo4.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/app.css" />
     <link
       rel="stylesheet"
-      href="/font-awesome-4.7.0/css/font-awesome.min.css"
+      href="/assets/font-awesome-4.7.0/css/font-awesome.min.css"
     />
   </head>
 
   <body>
     <!-- Navbar  -->
-    <header class="fixed-top" id="site-header">
-      <nav class="navbar navbar-expand-md navbar-dark text-black-50">
+    <div>
+      <nav class="navbar navbar-expand-md navbar-dark bg-light text-black-50 fixed-top">
         <a class="navbar-brand" href="/">
-          <img src="/img/logo2.png" alt="" width="120px" />
+          <img src="/assets/img/logo2.png" alt="" width="120px" />
           <!-- <span>Praxis</span> -->
         </a>
 
@@ -52,6 +52,10 @@
             </li>
 
             <li class="nav-item">
+              <a class="nav-link nav-link-menu" href="partnerships.html">Partnerships</a>
+            </li>
+
+            <li class="nav-item">
               <a class="nav-link nav-link-menu" href="contact.html">Contact Us</a>
             </li>
           </ul>
@@ -63,44 +67,44 @@
           </ul>
         </div>
       </nav>
-    </header>
+    </div>
 
     <!-- Banner  -->
     <div class="banner">
       <div id="demo-1">
-        <div class="demo-inner-content container">
+        <div class="demo-inner-content container text-center">
           <div class="container">
             <div class="row align-items-center">
               <!-- order-lg-first -->
-              <div class="col-md-7 mt-lg-0 mt-5">
-                <h1 class="mb-4 display-2">
-                  <strong class="text-success">Build </strong>Better
-                  <br /><strong>Community</strong>
+              <div class="col-md-12 mt-lg-0 mt-5">
+                <h1 class="mb-4 display-2 mt-5 tagline-title">
+                  <strong class="text-success tagline-title-1">Build </strong> <span class="tagline-title-2">Better</span> 
+                  <br /><strong class="tagline-title-3">Community</strong>
                 </h1>
-                <p class="lead">
-                  PRAXIS, we soar in excellence and stand in integrity
+                <p class="tagline-desc">
+                  "Right Skills for the right course"
                 </p>
                 <div class="mt-5">
-                  <a class="btn btn-primary btn-style mr-2" href="our-foundation.html"
-                    >Read More <i class="fa fa-plus ml-4"></i>
-                  </a>
+                  <!-- <a class="btn btn-primary btn-style mr-2" href="our-foundation.html"
+                    >About Us
+                  </a> -->
                   <a
-                    class="btn btn-outline btn-outline-style text-white btn-md"
+                    class="btn btn-primary btn-style mr-2" 
                     href="programs.html"
                     >Our Services
                   </a>
                 </div>
               </div>
               <!-- order-first text-lg-left -->
-              <div class="col-md-5 text-center mt-lg-5">
+              <!-- <div class="col-md-5 text-center mt-lg-5">
                 <div class="banner-right">
                   <img
-                    src="/img/pexels-karolina-grabowska-4207905.jpg"
+                    src="/assets/img/pexels-karolina-grabowska-4207905.jpg"
                     alt=""
                     class="img-fluid"
                   />
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -115,7 +119,7 @@
             class="col-lg-6 col-md-7 pr-lg-5 mt-md-0 mt-sm-5 mt-4 mb-3 respon-order-2"
           >
             <img
-              src="/img/intro-image-1.png"
+              src="/assets/img/intro-img.jpg"
               alt="product"
               class="img-responsive rounded"
             />
@@ -123,16 +127,16 @@
           <div
             class="col-lg-6 col-md-5 order-lg-first content-sec-1 response-order-1"
           >
-            <div class="header-title mb-2">
+            <div class="header-title">
               <span class="sub-title">For Health & Development</span>
-              <h3 class="hny-title text-left text-black-50">Praxis</h3>
+              <h3 class="hny-title text-left text-black-50">PRAXIS</h3>
             </div>
             <p>
               A private consultancy firm run by highly skilled professionals
               which provides a wide-range of public health and development
               services.
             </p>
-            <br />
+            
             <p class="column-content-inner">
               The word ‘<strong>PRAXIS</strong>’ is a generic Greek word which
               basically means closing up the research-to-practice, as well as
@@ -142,7 +146,7 @@
               systems, as well as, designing and conducting operational research
               to inform and improve practices.
             </p>
-            <a class="btn btn-md btn-outline-primary mt-4" href="our-foundation.html"
+            <a class="btn btn-md btn-outline-primary mt-2" href="our-foundation.html"
               >Learn More <i class="fa fa-arrow-right pl-3"></i
             ></a>
           </div>
@@ -173,7 +177,7 @@
           </div>
           <div class="col-lg-4 col-md-6 col-sm-6 p-0">
             <div class="img-column">
-              <img src="/img/grid-5.jpg" alt="product" class="img-responsive" />
+              <img src="/assets/img/puzzle_lighbulb1.webp" alt="product" class="img-responsive" />
             </div>
             <div class="column-content mt-sm-4 p-4">
               <div class="column-content-inner">
@@ -202,7 +206,8 @@
               </div>
             </div>
             <div class="img-column respon-order-1">
-              <img src="/img/grid-7.jpg" alt="product" class="img-responsive" />
+              <div class="mt-5"></div>
+              <img src="/assets/img/grid-9.jpg" alt="product" class="img-responsive" />
             </div>
           </div>
         </div>
@@ -244,7 +249,7 @@
               <h3>Core Values</h3>
               <p>Our values guide team’s decisions and interactions with our clients, donors, partners, stakeholders and other
                 constituents:</p>
-              <ul class="list-unstyled">
+              <ul class="list-unstyled text-left">
                 <li>
                   <span class="fa fa-check mr-3"></span>Quality deliverables
                 </li>
@@ -268,49 +273,34 @@
     </div> 
 
     <!-- Project Feature  -->
-    <div class="py-3">
+    <div class="py-5">
       <div class="container">
         <div class="header-title mb-2">
           <span class="sub-title">Feature Project</span>
-          <h3 class="hny-title text-left">Explore CARMMA campaign from 2021-2030</h3>
+          <h3 class="hny-title text-left">Recents Projects</h3>
         </div>
-        <div class="row">
-          <div class="col-md-7 mb-3">
-            <h5 style="font-size: 18px;" class="mb-3 text-dark">Develop a continental proposal and action plan for the re-strengthened implementation of the CARMMA campaign from
-            2021-2030</h5>
-
-            <div class="row mt-5">
-              <div class="col-md-6 mb-3">
-                <div class="inner-wrapper">
-                  <i class="fa fa-paragraph"></i>
-                  <h6>Define Proposal</h6>
-                </div>
-              </div>
-              <div class="col-md-6 mb-3">
-                <div class="inner-wrapper">
-                  <i class="fa fa-toggle-on"></i>
-                  <h6>Planning</h6>
-                </div>
-              </div>
-            </div>
-            <div class="row mt-3">
-              <div class="col-md-6 mb-3">
-                <div class="inner-wrapper">
-                  <i class="fa fa-database"></i>
-                  <h6>Strengthened</h6>
-                </div>
-              </div>
-              <div class="col-md-6 mb-3">
-                <div class="inner-wrapper">
-                  <i class="fa fa-bandcamp"></i>
-                  <h6>Campaign</h6>
-                </div>
-              </div>
-            </div>
+        <div class="row align-items-center">
+          <div class="col-lg-5 col-md-5 content-sec-1">
+            <h4><a href="blog.html" class="title-style-anchor text-decoration-none font-weight-bolder text-black-50">Develop a continental proposal and action plan for the re-strengthened implementation of the CARMMA campaign from
+            2021-2030</a></h4>
+            
+            <a class="btn btn-style mt-4" href="blog.html">Read More</a>
           </div>
-          <div class="col-md-5 mb-3">
-            <img src="/img/feature-project-1.png" alt="" class="img-fluid img-responsive rounded">
+          <div class="col-lg-7 col-md-7 pl-lg-5 mt-md-0 mt-sm-5 mt-4">
+            <img src="/assets/img/project-2.jpg" alt="product" class="img-responsive rounded">
           </div>
+        </div>
+        <div class="row align-items-center mt-5">
+          <div class="col-lg-7 col-md-7 pl-lg-5 mt-md-0 mt-sm-5 mt-4">
+            <img src="/assets/img/project-1.jpg" alt="product" class="img-responsive rounded">
+          </div>
+          <div class="col-lg-5 col-md-5 content-sec-1">
+            <h4><a href="blog.html" class="title-style-anchor text-decoration-none font-weight-bolder text-black-50">Enhancing Nutrition Services to Improve Maternal Child Health in Africa
+            and Asia (ENRICH)” Project.</a></h4>
+        
+            <a class="btn btn-style mt-4" href="blog.html">Read More</a>
+          </div>
+          
         </div>
       </div>
     </div>
@@ -325,7 +315,7 @@
         <div class="row">
           <div class="col-md-4 mb-3">
             <div class="blog-content">
-              <img src="/img/blog1.jpg" alt="" class="img-responsive rounded" />
+              <img src="/assets/img/blog-1.jpg" alt="" class="img-responsive rounded" />
               <div class="d-flex justify-content-between">
                 <a href="blog.html" class="h5"
                   >UNFPA – Comprehensive Midwifery Assessment
@@ -335,7 +325,7 @@
           </div>
           <div class="col-md-4 mb-3">
             <div class="blog-content">
-              <img src="/img/blog2.jpg" alt="" class="img-responsive rounded" />
+              <img src="/assets/img/blog-2.jpg" alt="" class="img-responsive rounded" />
               <div class="d-flex justify-content-between">
                 <a href="blog.html" class="h5"
                   >Develop a continental proposal and action plan for the
@@ -347,7 +337,7 @@
           </div>
           <div class="col-md-4 mb-3">
             <div class="blog-content">
-              <img src="/img/blog3.jpg" alt="" class="img-responsive rounded" />
+              <img src="/assets/img/blog-3.jpg" alt="" class="img-responsive rounded" />
               <div class="d-flex justify-content-between">
                 <a href="blog.html" class="h5"
                   >Raleigh International - End of line Evaluation of Healthy
@@ -384,7 +374,7 @@
           <div class="col-md-4 mb-3">
             <div class="feature-05-inner">
               <div class="navbar-brand" href="/">
-                <img src="/img/logo2.png" alt="" width="200px" />
+                <img src="/assets/img/logo2.png" alt="" width="200px" />
               </div>
               <p>
                 A private consultancy firm run by highly skilled professionals
@@ -437,7 +427,7 @@
                 </h6>
                 <h6>
                   <span
-                    class="mr-3 fa fa-mail-forward p-3 bg-dark text-white rounded-circle"
+                    class="mr-3 fa fa-inbox p-3 bg-dark text-white rounded-circle"
                   ></span>
                   <a href="mailto:info@praxis.org">info@praxis.org</a>
                 </h6>
@@ -482,31 +472,26 @@
       <!-- //move top -->
 
       <!-- Copyright  -->
-      <div class="d-flex justify-content-between bg-light p-2">
+      <div class="bg-light p-3 text-center">
         <h6>© 2022 Praxis. All right reserved</h6>
-        <div>
-          Developed by <i class="fa fa-heart text-success"></i>
-          <a
-            href="http://ambrosedev.netlify.app"
-            target="_blank"
-            rel="noopener noreferrer"
-            >TSDC</a
-          >
-        </div>
+      </div>
+      <div class="p-2 text-center">
+        Developed by <i class="fa fa-heart text-success"></i>
+        <a href="http://ambrosedev.netlify.app" target="_blank" rel="noopener noreferrer">TSDC</a>
       </div>
     </div>
 
-    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/assets/js/jquery-3.6.0.min.js"></script>
     <!-- <script src="/js/jquery-3.3.1.min.js"></script> -->
-    <script src="/js/script.js"></script>
+    <script src="/assets/js/script.js"></script>
     <!-- disable body scroll which navbar is in active -->
-    <script>
+    <!-- <script>
       $(function () {
         $(".navbar-toggler").click(function () {
           $("body").toggleClass("noscroll");
         });
-      });
+      }); -->
     </script>
-    <script src="/js/bootstrap.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
   </body>
 </html>

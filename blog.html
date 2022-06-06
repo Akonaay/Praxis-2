@@ -5,83 +5,88 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Praxis | Blog</title>
-    <link rel="shortcut icon" href="/img/logo4.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="./css/app.css" />
-    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <title>Praxis | Blogs </title>
+    <link rel="shortcut icon" href="/assets/img/logo4.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/app.css" />
+    <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css" />
 </head>
 
 <body>
     <!-- Navbar  -->
-    <header class="fixed-top" id="site-header">
-        <nav class="navbar navbar-expand-md navbar-dark text-black-50">
+    <div>
+        <nav class="navbar navbar-expand-md navbar-dark bg-light text-black-50 fixed-top">
             <a class="navbar-brand" href="/">
-                <img src="/img/logo2.png" alt="" width="120px" />
+                <img src="/assets/img/logo2.png" alt="" width="120px" />
                 <!-- <span>Praxis</span> -->
             </a>
-
+    
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
+    
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link nav-link-menu" href="/">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-menu" href="/">Home </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link nav-link-menu" href="our-foundation.html">Our Foundation </a>
+                        <a class="nav-link nav-link-menu" href="our-foundation.html">Our Foundation</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link nav-link-menu" href="programs.html">Programs</a>
                     </li>
-
+    
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-menu" href="partnerships.html">Partnerships</a>
+                    </li>
+    
                     <li class="nav-item">
                         <a class="nav-link nav-link-menu" href="contact.html">Contact Us </a>
                     </li>
                 </ul>
-
+    
                 <ul class="navbar-nav">
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a href="blog.html" class="btn btn-primary">Blog <span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
         </nav>
-    </header>
+    </div>
 
     <!-- Banner  -->
     <div class="banner">
         <div id="demo-5">
-            <div class="demo-inner-content container">
+            <div class="demo-inner-content container mt-5">
             <h5 class="display-4 text-white">Blog & Projects</h5>
             </div>
         </div>
     </div>
 
-    <div class="feature-04 py-5">
+    <!-- Feature 04 Blog -->
+    <div class="feature-04 py-3">
         <div class="container blog">
-            <div class="header-title mb-3">
+            <div class="header-title mb-2">
                 <span class="sub-title">Latest Blogs</span>
                 <h3 class="hny-title text-left">Stay updated with us</h3>
             </div>
             <div class="row">
                 <div class="col-md-4 mb-3">
                     <div class="blog-content">
-                        <img src="/img/blog1.jpg" alt="" class="img-responsive rounded" />
+                        <img src="/assets/img/blog-1.jpg" alt="" class="img-responsive rounded" />
                         <div class="d-flex justify-content-between">
-                            <a href="#!" class="h5">UNFPA – Comprehensive Midwifery Assessment
+                            <a href="blog.html" class="h5">UNFPA – Comprehensive Midwifery Assessment
                             </a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="blog-content">
-                        <img src="/img/blog2.jpg" alt="" class="img-responsive rounded" />
+                        <img src="/assets/img/blog-2.jpg" alt="" class="img-responsive rounded" />
                         <div class="d-flex justify-content-between">
-                            <a href="#!" class="h5">Develop a continental proposal and action plan for the
+                            <a href="blog.html" class="h5">Develop a continental proposal and action plan for the
                                 re-strengthened implementation of the CARMMA campaign from
                                 2021-2030</a>
                         </div>
@@ -89,14 +94,53 @@
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="blog-content">
-                        <img src="/img/blog3.jpg" alt="" class="img-responsive rounded" />
+                        <img src="/assets/img/blog-3.jpg" alt="" class="img-responsive rounded" />
                         <div class="d-flex justify-content-between">
-                            <a href="#!" class="h5">Raleigh International - End of line Evaluation of Healthy
+                            <a href="blog.html" class="h5">Raleigh International - End of line Evaluation of Healthy
                                 Lives, Happy Homes</a>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+
+    <!-- Project Feature  -->
+    <div class="py-5">
+        <div class="container">
+            <div class="header-title mb-2">
+                <span class="sub-title">Feature Project</span>
+                <h3 class="hny-title text-left">Recents Projects</h3>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-5 content-sec-1">
+                    <h4><a href="blog.html"
+                            class="title-style-anchor text-decoration-none font-weight-bolder text-black-50">Develop a
+                            continental proposal and action plan for the re-strengthened implementation of the CARMMA
+                            campaign from
+                            2021-2030</a></h4>
+    
+                    <a class="btn btn-style mt-4" href="blog.html">Read More</a>
+                </div>
+                <div class="col-lg-7 col-md-7 pl-lg-5 mt-md-0 mt-sm-5 mt-4">
+                    <img src="/assets/img/project-2.jpg" alt="product" class="img-responsive rounded">
+                </div>
+            </div>
+            <!-- <div class="row align-items-center mt-5">
+                <div class="col-lg-7 col-md-7 pl-lg-5 mt-md-0 mt-sm-5 mt-4">
+                    <img src="/assets/img/project-1.jpg" alt="product" class="img-responsive rounded">
+                </div>
+                <div class="col-lg-5 col-md-5 content-sec-1">
+                    <h4><a href="blog.html"
+                            class="title-style-anchor text-decoration-none font-weight-bolder text-black-50">Enhancing
+                            Nutrition Services to Improve Maternal Child Health in Africa
+                            and Asia (ENRICH)” Project.</a></h4>
+    
+                    <a class="btn btn-style mt-4" href="blog.html">Read More</a>
+                </div>
+    
+            </div> -->
         </div>
     </div>
 
@@ -107,7 +151,7 @@
                 <div class="col-md-4 mb-3">
                     <div class="feature-05-inner">
                         <div class="navbar-brand" href="/">
-                            <img src="/img/logo2.png" alt="" width="200px" />
+                            <img src="/assets/img/logo2.png" alt="" width="200px" />
                         </div>
                         <p>
                             A private consultancy firm run by highly skilled professionals
@@ -127,10 +171,10 @@
                     <div class="feature-05-inner mt-4">
                         <h3>Resources</h3>
                         <div class="menu-link">
-                            <a href="/our-foundation.html" class="link-item">Our Foundation</a>
-                            <a href="/programs.html" class="link-item">Programs</a>
-                            <a href="/blog.html" class="link-item">Recent Projects</a>
-                            <a href="/blog.html" class="link-item">Blog</a>
+                            <a href="our-foundation.html" class="link-item">Our Foundation</a>
+                            <a href="programs.html" class="link-item">Programs</a>
+                            <a href="blog.html" class="link-item">Recent Projects</a>
+                            <a href="blog.html" class="link-item">Blog</a>
                         </div>
                     </div>
                 </div>
@@ -147,7 +191,7 @@
                                 <a href="tel:+255621894388">+255621894388</a>
                             </h6>
                             <h6>
-                                <span class="mr-3 fa fa-mail-forward p-3 bg-dark text-white rounded-circle"></span>
+                                <span class="mr-3 fa fa-inbox p-3 bg-dark text-white rounded-circle"></span>
                                 <a href="mailto:info@praxis.org">info@praxis.org</a>
                             </h6>
                         </div>
@@ -155,7 +199,7 @@
                 </div>
             </div>
         </div>
-
+    
         <!-- Move to Top  -->
         <button onclick="topFunction()" id="movetop" title="Go to top" style="display: block">
             <span class="fa fa-angle-up"></span>
@@ -184,20 +228,20 @@
             }
         </script>
         <!-- //move top -->
-
+    
         <!-- Copyright  -->
-        <div class="d-flex justify-content-between bg-light p-2">
+        <div class="bg-light p-3 text-center">
             <h6>© 2022 Praxis. All right reserved</h6>
-            <div>
-                Developed with <i class="fa fa-heart text-success"></i>
-                <a href="http://ambrosedev.netlify.app" target="_blank" rel="noopener noreferrer">TSDC</a>
-            </div>
+        </div>
+        <div class="p-2 text-center">
+            Developed by <i class="fa fa-heart text-success"></i>
+            <a href="http://ambrosedev.netlify.app" target="_blank" rel="noopener noreferrer">TSDC</a>
         </div>
     </div>
-
-    <script src="/js/jquery-3.6.0.min.js"></script>
+    
+    <script src="/assets/js/jquery-3.6.0.min.js"></script>
     <!-- <script src="/js/jquery-3.3.1.min.js"></script> -->
-    <script src="/js/script.js"></script>
+    <script src="/assets/js/script.js"></script>
     <!-- disable body scroll which navbar is in active -->
     <script>
         $(function () {
@@ -206,7 +250,6 @@
             });
         });
     </script>
-    <script src="/js/bootstrap.min.js"></script>
-</body>
+    <script src="/assets/js/bootstrap.min.js"></script>
 
 </html>
