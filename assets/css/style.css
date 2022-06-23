@@ -7113,6 +7113,10 @@ button.bg-danger:focus {
     background-color: #f8f9fa !important;
 }
 
+.bg-white {
+    background-color: white !important;
+}
+
 a.bg-light:hover,
 a.bg-light:focus,
 button.bg-light:hover,
@@ -11866,7 +11870,7 @@ button.navbar-toggler{
     padding: 12px;
     background: #09294b;
     color: white;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     text-decoration: none;
 }
 
@@ -11990,11 +11994,14 @@ button.navbar-toggler{
 
 .pillar-content i{
     
-    border-radius: 20px 0 20px 20px;
+    /* border-radius: 20px 0 20px 20px; */
     margin-bottom: 15px;
-    font-size: 25px;
-    color: rgb(0 0 0 / 50%);
-    margin-top: -100px;
+    font-size: 27px;
+    color: blueviolet;
+    /* margin-top: -100px; */
+    border: 1px solid pink;
+    padding: 8px;
+
 }
 
 /* Services/Programs Page */
